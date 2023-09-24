@@ -1,0 +1,46 @@
+body{
+   font-size: 15px;
+   background-color: #333911;
+}
+.mainCon{
+   position: relative;
+   display: grid;
+   place-items: center;
+}
+.mainCon h3{
+   color: ORANGE;
+}
+.container{
+   position: relative;
+   background-color: black;
+   padding: 5px;
+   border: 1px solid orange;
+   border-radius: 5px;
+}
+.container div{
+   position: relative;
+}
+.container > div input{
+   width: 60px;
+   height: 30px;
+   position: relative;
+   outline: none;
+   background: gray;
+   border: none;
+   box-shadow: -1px -1px 3px lightblue, 0px 1px 2px lightblue;
+   color: orange;
+   text-shadow: .5px .5px .5px pink;
+}
+#display{
+   width: 244px;
+   text-align: right;
+   box-shadow: 0px -.5px 1px orange, 0px .5px 1px orange;
+   background: none;
+   border-radius: 5px;
+   color: orange;
+   font-size: 20px;
+   padding-top: 10px;
+}
+#eval{
+   width: 123px;
+}

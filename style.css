@@ -1,0 +1,58 @@
+body {
+    font-size: 15pt;
+    background-color: #255555;
+}
+.container{
+   position: sticky;
+   background-color: #999955;
+}
+.container .menuB{
+   position: relative;
+   cursor: pointer;
+   width: 45px;
+   background-color: darkblue;
+   border: 1px solid blue;
+}
+.container > .menuB .divs{
+   width: 30px;
+   height: 2px;
+   background-color: darkred;
+   position: absolute;
+   left: 5px;
+   border: 1px solid green ;
+}
+.pName{
+   position: absolute;
+   right: 30px;
+   top: 5%;
+   color: black;
+   font-family: times new roman;
+}
+.container .menuList{
+   display: none;
+}
+.container > .menuB:hover .divs{
+   background-color: green;
+}
+.menuB:hover .menuList{
+   display: block;
+}
+.menuB:hover{
+   width: 50%;
+   background: lightblue;
+   transition-duration: 1s;
+}
+.menuB:hover .list{
+   text-align: left;
+   padding: 5px;
+   text-decoration: none;
+   color: green;
+   display: block;
+   font-size: 25px;
+   cursor: pointer;
+}
+.for-paras p{
+   color: orange;
+   text-indent: 1cm;
+   font-size: 17px;
+}
